@@ -1,0 +1,6 @@
+plugin:
+    name: 'umroh.packagesdbemirates::lang.plugin.name'
+    description: 'umroh.packagesdbemirates::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''

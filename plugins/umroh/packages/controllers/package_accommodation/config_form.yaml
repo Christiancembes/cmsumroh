@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Package Accommodation
+
+# Model Form Field configuration
+form: $/umroh/packages/models/package_accommodation/fields.yaml
+
+# Model Class name
+modelClass: umroh\Packages\Models\PackageAccommodation
+
+# Default redirect location
+defaultRedirect: umroh/packages/package_accommodation
+
+# Create page
+create:
+    title: Create Package Accommodation
+    redirect: umroh/packages/package_accommodation/update/:id
+    redirectClose: umroh/packages/package_accommodation
+
+# Update page
+update:
+    title: Edit Package Accommodation
+    redirect: umroh/packages/package_accommodation
+    redirectClose: umroh/packages/package_accommodation
+
+# Preview page
+preview:
+    title: Preview Package Accommodation

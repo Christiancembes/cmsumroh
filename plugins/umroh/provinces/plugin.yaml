@@ -1,0 +1,11 @@
+plugin:
+    name: 'umroh.provinces::lang.plugin.name'
+    description: 'umroh.provinces::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Province
+        url: umroh/provinces/province
+        icon: icon-circle-o

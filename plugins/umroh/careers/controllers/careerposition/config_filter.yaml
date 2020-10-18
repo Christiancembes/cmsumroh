@@ -1,0 +1,19 @@
+scopes:
+  careerLevel:
+    label: Level
+    modelClass: Umrohcom\Careers\Models\CareerLevel
+    conditions: id in (:filtered)
+    nameFrom: name
+  careerStatus:
+    label: Status
+    modelClass: Umrohcom\Careers\Models\CareerStatus
+    conditions: id in (:filtered)
+    nameFrom: name
+  created_at:
+    label: Tanggal Membuat
+    type: daterange
+    conditions: created_at >= ':after' AND created_at <= ':before'
+  expired_at:
+    label: Tanggal Expired
+    type: daterange
+    conditions: expired_at >= ':after' AND expired_at <= ':before'

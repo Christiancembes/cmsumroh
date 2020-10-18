@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Package Itinerary
+
+# Model Form Field configuration
+form: $/umroh/packages/models/package_video/fields.yaml
+
+# Model Class name
+modelClass: umroh\Packages\Models\PackageVideo
+
+# Default redirect location
+defaultRedirect: umroh/packages/package_video
+
+# Create page
+create:
+    title: Create Paket Video
+    redirect: umroh/packages/package_video/update/:id
+    redirectClose: umroh/packages/package_video
+
+# Update page
+update:
+    title: Edit Paket Video
+    redirect: umroh/packages/package_video
+    redirectClose: umroh/packages/package_video
+
+# Preview page
+preview:
+    title: Preview Paket Video

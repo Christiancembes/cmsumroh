@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    airline[name]:
+        label: Nama
+        searchable: true
+    departureFrom[name]:
+        label: Berangkat Dari
+        searchable: true
+    departureTo[name]:
+        label: Berangkat ke
+        searchable: true
+    departure_date:
+        label: Tanggal Berangkat
+        searchable: true
+    description:
+        label: Deskripsi
+        searchable: true

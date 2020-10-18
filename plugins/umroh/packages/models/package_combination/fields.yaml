@@ -1,0 +1,38 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    # id:
+    #     label: ID
+    #     disabled: true
+    room_capacity:
+        label: Kapasitas Ruangan
+        span: left
+    price:
+        label: Harga Asli
+        span: right
+        default: 0
+    discount_rule:
+        label: Rule Diskon
+        span: left
+        type: dropdown
+        emptyOption: "-- Silahkan Pilih Rule Diskon --"
+        dependsOn: discount
+        options:
+            0: Tidak Diskon
+            nominal: Nominal
+            percentage: Percentage
+    discount:
+        label: Diskon
+        span: right
+        dependsOn: discount_rule
+        default: 0
+    final_price:
+        label: Harga Final
+        span: left
+        readOnly: true
+        dependsOn: 
+            - discount
+            - discount_rule
+            - price

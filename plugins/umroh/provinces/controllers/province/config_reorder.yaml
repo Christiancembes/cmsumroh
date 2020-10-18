@@ -1,0 +1,4 @@
+title: Province
+modelClass: Umroh\Provinces\Models\Province
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Fasilitias Posisi
+
+# Model Form Field configuration
+form: $/umrohcom/careers/models/careerfacilities/fields.yaml
+
+# Model Class name
+modelClass: Umrohcom\Careers\Models\CareerFacilities
+
+# Default redirect location
+defaultRedirect: umrohcom/careers/careerfacilities
+
+# Create page
+create:
+    title: Create Fasilitias Posisi
+    redirect: umrohcom/careers/careerfacilities/update/:id
+    redirectClose: umrohcom/careers/careerfacilities
+
+# Update page
+update:
+    title: Edit Fasilitias Posisi
+    redirect: umrohcom/careers/careerfacilities
+    redirectClose: umrohcom/careers/careerfacilities
+
+# Preview page
+preview:
+    title: Preview Fasilitias Posisi

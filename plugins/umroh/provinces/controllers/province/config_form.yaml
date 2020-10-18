@@ -1,0 +1,10 @@
+name: Province
+form: $/umroh/provinces/models/province/fields.yaml
+modelClass: Umroh\Provinces\Models\Province
+defaultRedirect: umroh/provinces/province
+create:
+    redirect: 'umroh/provinces/province/update/:id'
+    redirectClose: umroh/provinces/province
+update:
+    redirect: umroh/provinces/province
+    redirectClose: umroh/provinces/province

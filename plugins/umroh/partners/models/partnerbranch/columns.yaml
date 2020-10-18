@@ -1,0 +1,26 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    partner[name]:
+        label: Travel Umroh
+        searchable: true
+    province[name]:
+        label: Provinsi
+        searchable: true
+    city[name]:
+        label: Kota
+        searchable: true
+    address:
+        label: Alamat Lengkap
+        searchable: true
+    zip:
+        label: Zip
+        searchable: true
+    phone:
+        label: No. Handphone
+        searchable: true

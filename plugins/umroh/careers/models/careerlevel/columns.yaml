@@ -1,0 +1,25 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Status
+        searchable: true
+        required : required
+    created_at:
+        label: Tanggal Membuat
+        searchable: true
+        clickable: true
+        type: datetime
+        format: l, d F Y H:i:s
+    updated_at:
+        label: Tanggal Mengubah
+        searchable: true
+        clickable: true
+        type: datetime
+        format: l, d F Y H:i:s
+

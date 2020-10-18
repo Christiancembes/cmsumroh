@@ -1,0 +1,52 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    cover:
+        label: Cover
+        type: partial
+        path: ~/plugins/umrohcom/partners/controllers/partner/_cover_column.htm
+    name:
+        label: Name
+        searchable: true
+    phone:
+        label: Phone
+        searchable: true
+    email:
+        label: Email
+        searchable: true
+    province[name]:
+        label: Provinsi
+        searchable: true
+        select: name
+    city[name]:
+        label: Kota
+        searchable: true
+        select: name
+    address:
+        label: Alamat Lengkap
+        searchable: true
+    package_count:
+        label: Paket Umroh Aktif
+        type: partial
+        path: ~/plugins/umrohcom/partners/controllers/partner/_package_count_column.htm
+    # packages_count:
+    #     label: Total Paket
+    #     relation: packages_count
+    #     valueFrom: count
+    #     default: 0
+    #     type: number
+    status_helper:
+        label: status
+        searchable: true
+        valueFrom: status_helper
+        select: status
+    # user_name:
+    #     label: User
+    #     searchable: true
+    #     relation: user
+    #     select: name

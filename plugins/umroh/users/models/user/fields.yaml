@@ -1,0 +1,47 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID User
+        disabled: true
+    name:
+        label: Nama Lengkap
+        disabled: true
+    email:
+        label: Email
+        disabled: true
+    phone:
+        label: No. Handphone
+        disabled: true
+    birthday:
+        label: Tanggal Ulang Tahun
+        disabled: true
+    province:
+        label: Provinsi
+        emptyOption: -- Silahkan Pilih Provinsi --
+        nameFrom: name
+        type: dropdown
+        disabled: true
+    city:
+        label: Kota
+        emptyOption: -- Silahkan Pilih Kota --
+        dependsOn: province
+        nameFrom: name
+        type: dropdown
+        disabled: true
+    role:
+        label: Role
+        type: dropdown
+        disabled: true
+        options:
+            user: User
+            vendor: Vendor
+    verified:
+        label: Verifikasi
+        type: dropdown
+        disabled: true
+        options:
+            0: Belum Verifikasi
+            1: Verifikasi

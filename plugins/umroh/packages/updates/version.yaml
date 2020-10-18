@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table umroh_packages_packages'
+    - builder_table_create_umroh_packages_packages.php
+1.0.3:
+    - 'Created table umroh_packages_package_flights'
+    - builder_table_create_umroh_packages_package_flights.php
+1.0.4:
+    - 'Created table umroh_packages_package_facilities'
+    - builder_table_create_umroh_packages_package_facilities.php
+1.0.5:
+    - 'Created table umroh_packages_package_combinations'
+    - builder_table_create_umroh_packages_package_combinations.php
+1.0.6:
+    - 'Created table umroh_packages_package_accommodations'
+    - builder_table_create_umroh_packages_package_accommodations.php

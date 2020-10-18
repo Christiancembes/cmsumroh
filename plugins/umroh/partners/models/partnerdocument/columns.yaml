@@ -1,0 +1,37 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    partner[name]:
+        label: Travel Umroh
+        searchable: true
+    partnerdocumenttype[name]:
+        label: Tipe Dokumen
+        searchable: true
+    file_url:
+        label: File Dokumen
+        type: partial
+        sortable: false
+        clickable: false
+        cssClass: column-button
+        path: ~/plugins/umrohcom/partners/controllers/partnerdocument/_file_url_column.htm
+        width: 150px
+    verified_helper:
+        label: Status Verifikasi
+        searchable: true
+        valueFrom: verified_helper
+        select: verified
+    created_at:
+        label: Tanggal Menambahkan
+        searchable: true
+        type: datetime
+        format: l, d F Y H:i:s
+    updated_at:
+        label: Tanggal Mengubah
+        searchable: true
+        type: datetime
+        format: l, d F Y H:i:s

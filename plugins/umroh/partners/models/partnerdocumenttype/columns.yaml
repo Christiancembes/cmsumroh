@@ -1,0 +1,18 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Nama Dokumen
+        searchable: true
+    slug:
+        label: Slug
+    status_required:
+        label: Kewajiban (Required)
+        searchable: true
+        valueFrom: status_required
+        select: required

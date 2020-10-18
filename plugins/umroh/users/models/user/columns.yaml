@@ -1,0 +1,46 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Nama
+        searchable: true
+    email:
+        label: Email
+        searchable: true
+    phone:
+        label: No. Handphone
+        searchable: true
+    birthday:
+        label: Tanggal Lahir
+        searchable: true
+        type: datetime
+        format: d F Y 
+    province:
+        label: Provinsi
+        searchable: true
+        relation: province
+        select: name
+    city:
+        label: Kota
+        searchable: true
+        relation: city
+        select: name
+    verified_helper:
+        label: Verifikasi
+        searchable: true
+        valueFrom: verified_helper
+        select: verified
+    role:
+        label: Role
+        searchable: true
+    created_at:
+        label: Tanggal Daftar
+        searchable: true
+        type: datetime
+        format: d F Y 
+

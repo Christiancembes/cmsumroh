@@ -1,0 +1,44 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+package:
+    label: Paket
+    view:
+        form: $/umroh/partners/models/package/fields.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/umroh/partners/models/package/fields.yaml
+        list: $/umroh/partners/models/package/columns.yaml
+first_hotel:
+    label: Hotel Pertama
+    view:
+        form: $/umroh/hotels/models/hotel/fields.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/umroh/hotels/models/hotel/fields.yaml
+        list: $/umroh/hotels/models/hotel/columns.yaml
+second_hotel:
+    label: Hotel Kedua
+    view:
+        form: $/umroh/hotels/models/hotel/fields.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/umroh/hotels/models/hotel/fields.yaml
+        list: $/umroh/hotels/models/hotel/columns.yaml
+departure_airline:
+    label: Pesawat Berangkat
+    view:
+        form: $/umroh/airlines/models/airline/fields.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/umroh/airlines/models/airline/fields.yaml
+        list: $/umroh/airlines/models/airline/columns.yaml
+return_airline:
+    label: Pesawat Pulang
+    view:
+        form: $/umroh/airlines/models/airline/fields.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/umroh/airlines/models/airline/fields.yaml
+        list: $/umroh/airlines/models/airline/columns.yaml

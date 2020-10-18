@@ -1,0 +1,6 @@
+plugin:
+    name: 'umroh.banners::lang.plugin.name'
+    description: 'umroh.banners::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''

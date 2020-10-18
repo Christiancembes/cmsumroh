@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    hotel[name]:
+        label: Nama
+        searchable: true
+    check_in_date:
+        label: Check In
+        searchable: true
+    check_out_date:
+        label: Check Out
+        searchable: true

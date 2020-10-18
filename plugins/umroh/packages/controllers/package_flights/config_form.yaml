@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Package Flight
+
+# Model Form Field configuration
+form: $/umroh/packages/models/package_flights/fields.yaml
+
+# Model Class name
+modelClass: umroh\Packages\Models\PackageFlights
+
+# Default redirect location
+defaultRedirect: umroh/packages/package_flights
+
+# Create page
+create:
+    title: Create Package Flight
+    redirect: umroh/packages/package_flights/update/:id
+    redirectClose: umroh/packages/package_flights
+
+# Update page
+update:
+    title: Edit Package Flight
+    redirect: umroh/packages/package_flights
+    redirectClose: umroh/packages/package_flights
+
+# Preview page
+preview:
+    title: Preview Package Flight

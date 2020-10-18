@@ -1,0 +1,10 @@
+name: City
+form: $/umroh/cities/models/city/fields.yaml
+modelClass: Umroh\Cities\Models\City
+defaultRedirect: umroh/cities/city
+create:
+    redirect: 'umroh/cities/city/update/:id'
+    redirectClose: umroh/cities/city
+update:
+    redirect: umroh/cities/city
+    redirectClose: umroh/cities/city

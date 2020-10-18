@@ -1,0 +1,77 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+partner:
+    label: Biro
+    view:
+        form: $/umroh/partners/models/partner/fields.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/umroh/partners/models/partner/fields.yaml
+        list: $/umroh/partners/models/partner/columns.yaml
+packageAccommodation:
+    label: Akomodasi
+    view:
+        form: $/umroh/packages/models/package_accommodation/fields.yaml
+        toolbarButtons: update|delete
+    manage:
+        form: $/umroh/packages/models/package_accommodation/fields.yaml
+        list: $/umroh/packages/models/package_accommodation/columns.yaml
+packageFacility:
+    label: Fasilitas
+    view:
+        form: $/umroh/packagefacility/models/packagefacility/fields.yaml
+        toolbarButtons: update|delete
+    manage:
+        form: $/umroh/packagefacility/models/packagefacility/fields.yaml
+        list: $/umroh/packagefacility/models/packagefacility/columns.yaml
+packageCombination:
+    label: Kombinasi
+    view:
+        form: $/umroh/packages/models/package_combination/fields.yaml
+        list: $/umroh/packages/models/package_combination/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/umroh/packages/models/package_combination/fields.yaml
+        list: $/umroh/packages/models/package_combination/columns.yaml
+packageHotels:
+    label: Paket Hotel
+    view:
+      form: $/umroh/packages/models/package_hotels/fields.yaml
+      list: $/umroh/packages/models/package_hotels/columns.yaml
+      toolbarButtons: create|delete
+    manage:
+      form: $/umroh/packages/models/package_hotels/fields.yaml
+      list: $/umroh/packages/models/package_hotels/columns.yaml
+      toolbarButtons: create|delete
+packageFlights:
+    label: Paket Penerbangan
+    view:
+      form: $/umroh/packages/models/package_flights/fields.yaml
+      list: $/umroh/packages/models/package_flights/columns.yaml
+      toolbarButtons: create|delete
+    manage:
+      form: $/umroh/packages/models/package_flights/fields.yaml
+      list: $/umroh/packages/models/package_flights/columns.yaml
+      toolbarButtons: create|delete
+packageTravelDetail:
+    label: Paket Itinerary
+    view:
+      form: $/umroh/packages/models/package_travel_detail/fields.yaml
+      list: $/umroh/packages/models/package_travel_detail/columns.yaml
+      toolbarButtons: create|delete
+    manage:
+      form: $/umroh/packages/models/package_travel_detail/fields.yaml
+      list: $/umroh/packages/models/package_travel_detail/columns.yaml
+      toolbarButtons: create|delete
+packageVideo:
+    label: Paket Video (Optional)
+    view:
+      form: $/umroh/packages/models/package_video/fields.yaml
+      list: $/umroh/packages/models/package_video/columns.yaml
+      toolbarButtons: create|delete
+    manage:
+      form: $/umroh/packages/models/package_video/fields.yaml
+      list: $/umroh/packages/models/package_video/columns.yaml
+      toolbarButtons: create|delete

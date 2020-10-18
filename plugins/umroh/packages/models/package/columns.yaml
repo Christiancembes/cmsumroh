@@ -1,0 +1,57 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name_type:
+        label: Tipe Paket
+        searchable: true
+        relation: packageType
+        select: name
+    name:
+        label: Name
+        searchable: true
+    price:
+        label: Harga
+        searchable: true
+    quota:
+        label: Kuota Tersedia
+        searchable: true
+    package_start:
+        label: Tanggal Berangkat
+        searchable: true
+        type: datetime
+        format: l, d F Y
+    package_end:
+        label: Tanggal Pulang
+        searchable: true
+        type: datetime
+        format: l, d F Y
+    partner_name:
+        label: Travel
+        searchable: true
+        relation: partner
+        select: name
+    status_popular:
+        label: Paket Populer
+        searchable: true
+        valueFrom: status_popular
+        select: is_popular
+    created_at:
+        label: Tanggal Tambah
+        searchable: true
+        type: datetime
+        format: l, d F Y H:i:s
+    updated_at:
+        label: Tanggal Ubah
+        searchable: true
+        type: datetime
+        format: l, d F Y H:i:s
+    status_paket:
+        label: Status Paket
+        searchable: true
+        valueFrom: status_paket
+        select: status

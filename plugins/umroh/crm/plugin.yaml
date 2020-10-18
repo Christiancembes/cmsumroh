@@ -1,0 +1,6 @@
+plugin:
+    name: 'umroh.crm::lang.plugin.name'
+    description: 'umroh.crm::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''

@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    partner[name]:
+        label: Travel Umroh
+        searchable: true
+    bank[name]:
+        label: Nama Bank
+        searchable: true
+    bank_no:
+        label: No Bank
+        searchable: true
+    bank_owner_name:
+        label: Pemilik Bank
+        searchable: true

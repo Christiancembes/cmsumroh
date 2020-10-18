@@ -1,0 +1,23 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    # id:
+    #     label: ID
+    #     searchable: false
+    room_capacity:
+        label: Kapasitas Ruangan
+        span: left
+    price:
+        label: Harga Asli
+        span: right
+    discount:
+        label: Diskon
+        span: right
+    discount_rule:
+        label: Tipe Diskon
+        span: right
+    final_price:
+        label: Harga Final
+        span: right

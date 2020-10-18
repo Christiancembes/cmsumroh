@@ -1,0 +1,32 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    partner[name]:
+        label: Travel Umroh
+        searchable: true
+    name:
+        label: Nama
+        searchable: true
+    position:
+        label: Posisi Jabatan
+        searchable: true
+    phone:
+        label: No. Handphone
+        searchable: true
+    email:
+        label: Email
+        searchable: true
+    id_card_type:
+        label: Tipe ID Card
+        searchable: true
+    id_card_no:
+        label: No. ID Card
+        searchable: true
+    npwp:
+        label: NPWP
+        searchable: true

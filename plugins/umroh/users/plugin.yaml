@@ -1,0 +1,11 @@
+plugin:
+    name: 'umroh.users::lang.plugin.name'
+    description: 'umroh.users::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: User
+        url: umroh/users/user
+        icon: icon-circle-thin

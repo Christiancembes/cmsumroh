@@ -1,0 +1,32 @@
+scopes:
+  package_type:
+    label: Tipe Paket
+    modelClass: umroh\Packages\Models\PackageType
+    conditions: package_type_id in (:filtered)
+    nameFrom: name
+  package_start:
+    label: Tanggal Keberangkatan dan Pulang
+    type: daterange
+    conditions: package_start >= ':after' AND package_end <= ':before'
+  from_price:
+    label: Lebih dari Harga
+    type: text
+    conditions: price >= :value
+  to_price:
+    label: Kurang dari Harga
+    type: text
+    conditions: price <= :value
+  is_popular: 
+    label: Paket Populer
+    type: group
+    conditions: is_popular in (:filtered)
+    options:
+      0: Tidak Popular
+      1: Popular
+  status: 
+    label: Status Paket
+    type: group
+    conditions: status in (:filtered)
+    options:
+      0: Inactive
+      1: Active

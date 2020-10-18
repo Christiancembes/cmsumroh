@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Tipe Paket
+
+# Model Form Field configuration
+form: $/umroh/packages/models/packagetype/fields.yaml
+
+# Model Class name
+modelClass: umroh\Packages\Models\PackageType
+
+# Default redirect location
+defaultRedirect: umroh/packages/packagetype
+
+# Create page
+create:
+    title: Create Tipe Paket
+    redirect: umroh/packages/packagetype/update/:id
+    redirectClose: umroh/packages/packagetype
+
+# Update page
+update:
+    title: Edit Tipe Paket
+    redirect: umroh/packages/packagetype
+    redirectClose: umroh/packages/packagetype
+
+# Preview page
+preview:
+    title: Preview Tipe Paket

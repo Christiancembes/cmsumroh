@@ -1,0 +1,12 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    day:
+        label: Hari Ke -
+        searchable: true
+    details:
+        label: Detail Itinerary
+        searchable: true
+    

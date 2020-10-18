@@ -1,0 +1,21 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Nama Dokumen
+        span: left
+        required: true
+    required:
+        label: Kewajiban (Required)
+        emptyOption: -- Silahkan Pilih Required --
+        type: dropdown
+        span: right
+        required: true
+        options:
+            0: Wajib
+            1: Tidak Wajib

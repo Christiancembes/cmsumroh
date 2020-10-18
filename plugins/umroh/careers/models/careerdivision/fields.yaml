@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Nama Divisi
+        span: left
+        required: required
+    tagline:
+        label: Tagline
+        span: right
+        required: required

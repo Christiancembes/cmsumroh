@@ -1,0 +1,28 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Nama Divisi
+        searchable: true
+        clickable: true
+    tagline:
+        label: Tagline
+        searchable: true
+        clickable: true
+    created_at:
+        label: Tanggal Membuat
+        searchable: true
+        clickable: true
+        type: datetime
+        format: l, d F Y H:i:s
+    updated_at:
+        label: Tanggal Mengubah
+        searchable: true
+        clickable: true
+        type: datetime
+        format: l, d F Y H:i:s

@@ -1,0 +1,6 @@
+plugin:
+    name: 'umroh.banks::lang.plugin.name'
+    description: 'umroh.banks::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''

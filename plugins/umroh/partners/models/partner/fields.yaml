@@ -1,0 +1,94 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    cover:
+        label: Cover
+        cssClass: url-cloudinary
+        readOnly: true
+        required : required
+    name:
+        label: Nama Travel
+        span: left
+        required: true
+    company_name:
+        label: Nama Perusahaan
+        span: right
+        required: true
+    province:
+        label: Provinsi
+        emptyOption: -- Silahkan Pilih Provinsi --
+        nameFrom: name
+        type: dropdown
+        span: left
+        required: true
+    city:
+        label: Kota
+        emptyOption: -- Silahkan Pilih Kota --
+        dependsOn: province
+        nameFrom: name
+        type: dropdown
+        span: right
+        required: true
+    address:
+        label: Alamat Lengkap
+        span: left
+        required: true
+    zip:
+        label: Kode Pos
+        span: right
+        required: true
+    email:
+        label: Email
+        span: left
+        required: true
+    phone:
+        label: No. Handphone
+        span: right
+        required: true
+    website:
+        label: Website
+        span: left
+        required: true
+    customer_per_year:
+        label: Customer Per Year
+        span: right
+    license_umrah:
+        label: Lisensi Umroh
+        span: left
+        required: true
+    license_umrah_year:
+        label: Tahun Lisensi Umroh
+        span: right
+        default: 0
+        required: true
+    license_pilgrimage:
+        label: Lisensi Haji
+        span: left
+    license_pilgrimage_year:
+        label: Tahun Lisensi Haji
+        span: right
+        default: 0
+    status:
+        label: Status
+        type: dropdown
+        span: left
+        required: true
+        options:
+            0: Inactive
+            1: Active
+    user:
+        label: User
+        emptyOption: -- Silahkan Pilih User --
+        type: relation
+        nameFrom: name
+        span: right
+        required: true
+    description:
+        label: Deskripsi
+        type: textarea
+        required: true

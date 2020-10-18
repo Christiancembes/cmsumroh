@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+careerPosition:
+    label: Posisi
+    view:
+        form: $/umrohcom/careers/models/careerposition/fields.yaml
+        list: $/umrohcom/careers/models/careerposition/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/umrohcom/careers/models/careerposition/fields.yaml
+        list: $/umrohcom/savings/models/careerposition/columns.yaml

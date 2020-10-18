@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Divisi
+
+# Model Form Field configuration
+form: $/umrohcom/careers/models/careerdivision/fields.yaml
+
+# Model Class name
+modelClass: Umrohcom\Careers\Models\CareerDivision
+
+# Default redirect location
+defaultRedirect: umrohcom/careers/careerdivision
+
+# Create page
+create:
+    title: Create Divisi
+    redirect: umrohcom/careers/careerdivision/update/:id
+    redirectClose: umrohcom/careers/careerdivision
+
+# Update page
+update:
+    title: Edit Divisi
+    redirect: umrohcom/careers/careerdivision
+    redirectClose: umrohcom/careers/careerdivision
+
+# Preview page
+preview:
+    title: Preview Divisi

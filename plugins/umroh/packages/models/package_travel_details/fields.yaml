@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    # id:
+    #     label: ID
+    #     disabled: true
+    # packages:
+    #     label: Nama Paket
+    #     type: relation
+    #     nameFrom: name
+    day:
+        label: Hari Ke -
+    details:
+        label: Detail Itinerary

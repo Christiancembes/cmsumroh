@@ -1,0 +1,6 @@
+plugin:
+    name: 'umroh.hotels::lang.plugin.name'
+    description: 'umroh.hotels::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''

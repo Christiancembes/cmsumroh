@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+careerFacilities:
+    label: Fasilitas Posisi
+    view:
+        form: $/umrohcom/careers/models/careerfacilities/fields.yaml
+        list: $/umrohcom/careers/models/careerfacilities/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/umrohcom/careers/models/careerfacilities/fields.yaml
+        list: $/umrohcom/savings/models/careerfacilities/columns.yaml

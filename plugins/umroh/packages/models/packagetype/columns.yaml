@@ -1,0 +1,23 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Nama Tipe Paket
+        searchable: true
+    slug:
+        label: Slug
+        searchable: true
+    description:
+        label: Deskripsi
+        searchable: true
+    created_at:
+        label: Tanggal Membuat
+        searchable: true
+    updated_at:
+        label: Tanggal Mengubah
+        searchable: true

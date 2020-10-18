@@ -1,0 +1,65 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    packageType:
+        label: Tipe Paket
+        type: relation
+        nameFrom: name
+        size: small
+        emptyOption: "-- Silahkan Pilih Tipe Paket --"
+    name:
+        label: Nama Paket
+        span: left
+    partner:
+        label: Travel Umroh
+        type: relation
+        nameFrom: name
+        size: small
+        span: right
+        emptyOption: "-- Silahkan Pilih Travel Umroh --"
+    description:
+        label: Deskripsi
+        type: textarea
+    quota:
+        label: Kuota Tersedia
+        type: number
+        span: left
+    days:
+        label: Lama Perjalanan
+        type: number
+        span: right
+    price:
+        label: Harga
+        type: number
+        span: left
+    package_start:
+        label: Tanggal Berangkat
+        type: datepicker
+        mode: date
+        span: right
+    package_end:
+        label: Tanggal Pulang
+        type: datepicker
+        mode: date
+        span: left
+    is_popular:
+        label: Paket Populer
+        type: checkbox
+        default: false
+    packageFacility:
+        label: Fasilitas Paket
+        type: dropdown
+        emptyOption: "-- Silahkan Pilih Fasilitas --"
+        dependsOn: partner
+    status:
+        label: Status Paket
+        type: dropdown
+        emptyOption: "-- Silahkan Pilih Status Paket --"
+        options:
+            0: Inactive
+            1: Active

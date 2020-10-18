@@ -1,0 +1,6 @@
+plugin:
+    name: 'umroh.districtsdbemirates::lang.plugin.name'
+    description: 'umroh.districtsdbemirates::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''

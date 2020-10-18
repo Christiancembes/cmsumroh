@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Package Hotel
+
+# Model Form Field configuration
+form: $/umroh/packages/models/package_hotels/fields.yaml
+
+# Model Class name
+modelClass: umroh\Packages\Models\PackageHotels
+
+# Default redirect location
+defaultRedirect: umroh/packages/package_hotels
+
+# Create page
+create:
+    title: Create Package Hotel
+    redirect: umroh/packages/package_hotels/update/:id
+    redirectClose: umroh/packages/package_hotels
+
+# Update page
+update:
+    title: Edit Package Hotel
+    redirect: umroh/packages/package_hotels
+    redirectClose: umroh/packages/package_hotels
+
+# Preview page
+preview:
+    title: Preview Package Hotel

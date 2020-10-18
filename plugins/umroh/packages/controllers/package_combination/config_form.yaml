@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Package Combination
+
+# Model Form Field configuration
+form: $/umroh/packages/models/package_combination/fields.yaml
+
+# Model Class name
+modelClass: umroh\Packages\Models\PackageCombination
+
+# Default redirect location
+defaultRedirect: umroh/packages/package_combination
+
+# Create page
+create:
+    title: Create Package Combination
+    redirect: umroh/packages/package_combination/update/:id
+    redirectClose: umroh/packages/package_combination
+
+# Update page
+update:
+    title: Edit Package Combination
+    redirect: umroh/packages/package_combination
+    redirectClose: umroh/packages/package_combination
+
+# Preview page
+preview:
+    title: Preview Package Combination

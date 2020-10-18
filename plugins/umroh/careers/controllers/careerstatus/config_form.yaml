@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Status Kandidat
+
+# Model Form Field configuration
+form: $/umrohcom/careers/models/careerstatus/fields.yaml
+
+# Model Class name
+modelClass: Umrohcom\Careers\Models\CareerStatus
+
+# Default redirect location
+defaultRedirect: umrohcom/careers/careerstatus
+
+# Create page
+create:
+    title: Create Status Kandidat
+    redirect: umrohcom/careers/careerstatus/update/:id
+    redirectClose: umrohcom/careers/careerstatus
+
+# Update page
+update:
+    title: Edit Status Kandidat
+    redirect: umrohcom/careers/careerstatus
+    redirectClose: umrohcom/careers/careerstatus
+
+# Preview page
+preview:
+    title: Preview Status Kandidat

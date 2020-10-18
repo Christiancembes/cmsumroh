@@ -1,0 +1,24 @@
+scopes:
+  birthday:
+    label: Tanggal Lahir
+    type: daterange
+    conditions: birthday >= ':after' AND birthday <= ':before'
+  created_at:
+    label: Tanggal Daftar
+    type: daterange
+    conditions: created_at >= ':after' AND created_at <= ':before'
+  verified:
+    label: Status Verifikasi
+    type: group
+    conditions: verified in (:filtered)
+    options:
+      0: Belum Verifikasi
+      1: Verifikasi
+  role:
+    label: Role
+    type: group
+    conditions: role in (:filtered)
+    options:
+      user: User
+      travel: Travel
+  

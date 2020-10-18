@@ -1,0 +1,4 @@
+title: City
+modelClass: Umroh\Cities\Models\City
+toolbar:
+    buttons: reorder_toolbar

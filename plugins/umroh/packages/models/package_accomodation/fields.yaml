@@ -1,0 +1,74 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    # package:
+    #     label: Copy Data Akomodasi From
+    #     type: relation
+    #     emptyOption: "-- Silahkan Pilih --"
+    departure_from:
+        label: Berangkat Dari
+        span: left
+    return_to:
+        label: Kembali Ke
+        span: right
+    departure_airline:
+        label: Pesawat Berangkat
+        type: relation
+        nameFrom: name
+        span: left
+    return_airline:
+        label: Pesawat Pulang
+        type: relation
+        nameFrom: name
+        span: right
+    departure_date:
+        label: Tanggal Berangkat
+        type: datepicker
+        mode: date
+        span: left
+    return_date:
+        label: Tanggal Kembali
+        type: datepicker
+        mode: date
+        span: right
+    transit:
+        label: Transit
+        span: left
+    landed:
+        label: Tiba Di
+        span: right
+    first_hotel:
+        label: Hotel Pertama
+        type: relation
+        nameFrom: name
+        span: left
+    second_hotel:
+        label: Hotel Kedua
+        type: relation
+        nameFrom: name
+        span: right
+    first_hotel_check_in:
+        label: Tanggal Check In Hotel Pertama
+        type: datepicker
+        mode: date
+        span: left
+    first_hotel_check_out:
+        label: Tanggal Check Out Hotel Pertama
+        type: datepicker
+        mode: date
+        span: right
+    second_hotel_check_in:
+        label: Tanggal Check In Hotel Kedua
+        type: datepicker
+        mode: date
+        span: left
+    second_hotel_check_out:
+        label: Tanggal Check Out Hotel Kedua
+        type: datepicker
+        mode: date
+        span: right

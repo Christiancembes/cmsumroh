@@ -1,0 +1,9 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    video_url:
+        label: URL Video (Link Yutub)
+        searchable: true
+    

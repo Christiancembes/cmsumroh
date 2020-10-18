@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Level Kandidat
+
+# Model Form Field configuration
+form: $/umrohcom/careers/models/careerlevel/fields.yaml
+
+# Model Class name
+modelClass: Umrohcom\Careers\Models\CareerLevel
+
+# Default redirect location
+defaultRedirect: umrohcom/careers/careerlevel
+
+# Create page
+create:
+    title: Create Level Kandidat
+    redirect: umrohcom/careers/careerlevel/update/:id
+    redirectClose: umrohcom/careers/careerlevel
+
+# Update page
+update:
+    title: Edit Level Kandidat
+    redirect: umrohcom/careers/careerlevel
+    redirectClose: umrohcom/careers/careerlevel
+
+# Preview page
+preview:
+    title: Preview Level Kandidat

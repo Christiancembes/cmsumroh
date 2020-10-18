@@ -1,0 +1,11 @@
+plugin:
+    name: 'umroh.cities::lang.plugin.name'
+    description: 'umroh.cities::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: City
+        url: umroh/cities/city
+        icon: icon-circle-o

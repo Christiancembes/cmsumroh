@@ -1,0 +1,6 @@
+plugin:
+    name: 'umroh.airports::lang.plugin.name'
+    description: 'umroh.airports::lang.plugin.description'
+    author: umroh
+    icon: oc-icon-apple
+    homepage: ''

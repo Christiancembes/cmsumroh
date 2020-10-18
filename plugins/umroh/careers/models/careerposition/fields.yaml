@@ -1,0 +1,54 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Nama Posisi
+        span: left
+    tagline:
+        label: Tagline
+        span: right
+    tagline:
+        label: Tagline
+        span: right
+    province:
+        label: Provinsi
+        emptyOption: -- Silahkan Pilih Provinsi --
+        nameFrom: name
+        type: dropdown
+        span: left
+        required: true
+    careerDivision:
+        label: Divisi
+        type: relation
+        nameFrom: name
+        size: small
+        span: right
+        emptyOption: "-- Silahkan Pilih Divisi --"
+    careerLevel:
+        label: Level
+        type: relation
+        nameFrom: name
+        size: small
+        span: left
+        emptyOption: "-- Silahkan Pilih Level --"
+    careerStatus:
+        label: Status
+        type: relation
+        nameFrom: name
+        size: small
+        span: right
+        emptyOption: "-- Silahkan Pilih Status --"
+    expired_at:
+        label: Tanggal Expired
+        type: datepicker
+    description_work:
+        label: Deskripsi Pekerjaan
+        type: textarea
+    qualification_minimun:
+        label: Kualifikasi Minimum
+        type: textarea

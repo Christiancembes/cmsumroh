@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table umroh_airports_table'
+    - builder_table_create_umroh_airports_table.php
+1.0.3:
+    - 'Updated table umroh_airports_table'
+    - builder_table_update_umroh_airports_table.php

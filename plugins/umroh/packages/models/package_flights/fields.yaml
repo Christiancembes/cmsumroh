@@ -1,0 +1,31 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    departureFrom:
+        label: Berangkat Dari
+        type: relation
+        nameFrom: name
+        emptyOption: "-- Silahkan Pilih Airport --"
+    departureTo:
+        label: Ke
+        type: relation
+        nameFrom: name
+        emptyOption: "-- Silahkan Pilih Airport --"
+    departure_date:
+        label: Tanggal berangkat
+        type: datepicker
+        mode: date
+    airline:
+        label: Airline
+        type: relation
+        nameFrom: name
+        emptyOption: "-- Silahkan Pilih Airline --"
+    description:
+        label: Deskripsi
+        type: radio
+        options:
+            pergi: Penerbangan ketika pergi umroh
+            pulang: Penerbangan ketika pulang dari umroh
+            transit: Transit

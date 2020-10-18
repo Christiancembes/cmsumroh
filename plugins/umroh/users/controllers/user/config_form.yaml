@@ -1,0 +1,10 @@
+name: User
+form: $/umroh/users/models/user/fields.yaml
+modelClass: Umroh\Users\Models\User
+defaultRedirect: umroh/users/user
+create:
+    redirect: 'umroh/users/user/update/:id'
+    redirectClose: umroh/users/user
+update:
+    redirect: umroh/users/user
+    redirectClose: umroh/users/user
